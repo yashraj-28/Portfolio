@@ -3,10 +3,13 @@ import { FaReact } from "react-icons/fa";
 
 import { SiUnity } from "react-icons/si";
 import { SiUnrealengine } from "react-icons/si";
+import { SiBmcsoftware } from "react-icons/si";
 
 import fpsmultiplayer from "@/public/FPSMultiplayer.png";
 import actionshooter from "@/public/2DActionShooter.png";
 import toontanks from "@/public/ToonTanks.png";
+import HealthHub from "@/public/HealthHub.png";
+import LiveDocs from "@/public/LiveDocs.png";
 
 export const links = [
   {
@@ -38,14 +41,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Unreal Developer",
-    location: "Heartshot Entertainment, St. Petersburg, FL",
-    description:
-      "As an Unreal Developer at Heartshot Entertainment, I design and implement new features for a 3D mobile game using Unreal Engine. I develop high-quality character animations to enhance gameplay and create intuitive, visually appealing UIs in collaboration with UX designers. Additionally, I focus on performance optimization to ensure smooth gameplay across various mobile devices.",
-    icon: React.createElement(SiUnrealengine),
-    date: "June 2024 - Current",
-  },
-  {
     title: "Web Developer",
     location: "Tennessee Reading Research Center, Knoxville, TN",
     description:
@@ -53,6 +48,23 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "April 2024 - Current",
   },
+  {
+    title: "Software Engineering Fellow, New York",
+    location: "Headstarter AI",
+    description:
+      "As a Software Engineering Fellow at Headstarter AI, I developed and deployed four AI applications utilizing Node.js, Next.js, and MongoDB, hosted on AWS EC2 with Docker, improving response accuracy by 35%. I also built an AI-powered chat system with OpenAI for NLP and secure JWT-based authentication, enhancing user support efficiency by 45%.",
+    icon: React.createElement(SiBmcsoftware),
+    date: "July 2024 - Sept. 2024",
+  },
+  {
+    title: "Unreal Developer",
+    location: "Heartshot Entertainment, St. Petersburg, FL",
+    description:
+      "As an Unreal Developer at Heartshot Entertainment, I design and implement new features for a 3D mobile game using Unreal Engine. I develop high-quality character animations to enhance gameplay and create intuitive, visually appealing UIs in collaboration with UX designers. Additionally, I focus on performance optimization to ensure smooth gameplay across various mobile devices.",
+    icon: React.createElement(SiUnrealengine),
+    date: "June 2024 - Sept. 2024",
+  },
+
   {
     title: "Unity Developer",
     location: "Goldon Studios, Pune, India",
@@ -84,6 +96,20 @@ export const projectsData = [
       "Developed a dynamic 3D tank shooter game using Unreal Engine 5.3. Enhanced gameplay with realistic missile animations, immersive sound effects, and visually appealing VFX.",
     tags: ["Unreal Engine", "C++", "Blueprints"],
     imageUrl: toontanks,
+  },
+  {
+    title: "Health-Hub",
+    description:
+      "Built a healthcare platform that streamlined patient registration and appointment scheduling for over 10,000 users.",
+    tags: ["Next.js", " TypeScript", "HTML / CSS", "Vercel", "Git", "Twilio"],
+    imageUrl: HealthHub,
+  },
+  {
+    title: "Live Docs",
+    description:
+      "Built an improved Google Docs that manages millions of collaborators in real-time.",
+    tags: ["Next.js", " TypeScript", "HTML / CSS", "Vercel", "Git", "Twilio"],
+    imageUrl: LiveDocs,
   },
 ] as const;
 
