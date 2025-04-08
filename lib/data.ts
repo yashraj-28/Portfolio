@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { SiUnity } from "react-icons/si";
 import { SiUnrealengine } from "react-icons/si";
 import { SiBmcsoftware } from "react-icons/si";
-
+import { FaVrCardboard } from 'react-icons/fa';
 import fpsmultiplayer from "@/public/FPSMultiplayer.png";
 import actionshooter from "@/public/2DActionShooter.png";
 import toontanks from "@/public/ToonTanks.png";
@@ -49,6 +49,14 @@ export const experiencesData = [
     date: "April 2024 - Current",
   },
   {
+    title: "Software Development Intern",
+    location: "The Net VR , Austin, TX",
+    description:
+      "As an Virtual Reality Developer at The Net VR, I designed and implemented interactive object behaviors, realistic physics, and immersive UI elements using Unity’s XR Toolkit, boosting user engagement by 25%. Developed and optimized VR environments for Android and iOS, improving frame rates by 30% for smoother performance.",
+    icon: React.createElement(FaVrCardboard),
+    date: "Nov. 2024 - April 2025",
+  },
+  {
     title: "Software Engineering Fellow, New York",
     location: "Headstarter AI",
     description:
@@ -56,15 +64,6 @@ export const experiencesData = [
     icon: React.createElement(SiBmcsoftware),
     date: "July 2024 - Sept. 2024",
   },
-  {
-    title: "Unreal Developer",
-    location: "Heartshot Entertainment, St. Petersburg, FL",
-    description:
-      "As an Unreal Developer at Heartshot Entertainment, I design and implement new features for a 3D mobile game using Unreal Engine. I develop high-quality character animations to enhance gameplay and create intuitive, visually appealing UIs in collaboration with UX designers. Additionally, I focus on performance optimization to ensure smooth gameplay across various mobile devices.",
-    icon: React.createElement(SiUnrealengine),
-    date: "June 2024 - Sept. 2024",
-  },
-
   {
     title: "Unity Developer",
     location: "Goldon Studios, Pune, India",
